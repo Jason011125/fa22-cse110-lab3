@@ -2,3 +2,19 @@ body {
     /* added background color and comment */
     background-color: bisque;
 }
+
+h1 {
+    color: #2E4053;
+}
+
+h2 {
+    color: rgb(52, 152, 219);
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: hsl(79, 100%, 30%)
+}
