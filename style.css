@@ -31,3 +31,16 @@ h4 {
     width: 100vw;
     height: 10vh;
 }
+
+ol {
+    margin: auto;
+}
+
+ul {
+    margin: 1cm, 0, 1cm, 0;
+}
+
+p {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
