@@ -18,3 +18,16 @@ h3 {
 h4 {
     color: hsl(79, 100%, 30%)
 }
+
+.iCanChangeThisLater {
+    width: 800px;
+    height: 30cm;
+    font-size: 0.5in;
+    color: blueviolet
+}
+
+.embededIndiv {
+    font-size: em;
+    width: 100vw;
+    height: 10vh;
+}
