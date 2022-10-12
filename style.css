@@ -22,6 +22,7 @@ h3 {
 }
 
 h4 {
+    display: inline;
     color: hsl(79, 100%, 30%)
 }
 
@@ -45,8 +46,16 @@ ol {
 }
 
 ul {
+    display: inline-block;
     margin: 1cm, 0, 1cm, 0;
     padding: 25px 50px 25px 50px;
+}
+
+li {
+    border: 1cm;
+    border-style: dashed;
+    border-radius: 1cm;
+    border-width: 0.01cm;
 }
 
 p {
