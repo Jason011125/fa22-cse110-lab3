@@ -31,8 +31,12 @@ h4 {
 }
 
 .iCanChangeThisLater {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 800px;
-    height: 30cm;
+    height: 20cm;
     font-size: 0.5in;
     color: blueviolet
 }
