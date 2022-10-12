@@ -4,6 +4,10 @@ body {
 }
 
 h1 {
+    border-style: dashed;
+    border-radius: 1cm;
+    border-color: aqua;
+    border-width: 10px;
     color: #2E4053;
 }
 
