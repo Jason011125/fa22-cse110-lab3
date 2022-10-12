@@ -33,11 +33,14 @@ h4 {
 }
 
 ol {
+    padding-top: 1cm;
+    padding-left: 100px;
     margin: auto;
 }
 
 ul {
     margin: 1cm, 0, 1cm, 0;
+    padding: 25px 50px 25px 50px;
 }
 
 p {
