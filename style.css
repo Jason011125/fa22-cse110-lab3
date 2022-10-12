@@ -52,7 +52,10 @@ ul {
 }
 
 li {
-    border: 1cm;
+    height: auto;
+    max-width: max-content;
+    max-height: max-content;
+    width: 200px;
     border-style: dashed;
     border-radius: 1cm;
     border-width: 0.01cm;
