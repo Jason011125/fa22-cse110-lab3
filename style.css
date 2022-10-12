@@ -69,3 +69,15 @@ p {
     margin-top: 1cm;
     margin-bottom: 1cm;
 }
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: blue;
+}
