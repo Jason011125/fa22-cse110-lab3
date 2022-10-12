@@ -1,9 +1,15 @@
+@font-face {
+    font-family: "myFont";
+    src: url("/Alkalami/Alkalami-Regular.ttf");
+}
+
 body {
     /* added background color and comment */
     background-color: bisque;
 }
 
 h1 {
+    font-family: "myFont";
     border-style: dashed;
     border-radius: 1cm;
     border-color: aqua;
@@ -106,6 +112,7 @@ li {
 }
 
 p {
+    font-family: "myFont";
     margin-top: 1cm;
     margin-bottom: 1cm;
 }
