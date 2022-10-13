@@ -3,11 +3,6 @@
     src: url("/Alkalami/Alkalami-Regular.ttf");
 }
 
-body {
-    /* added background color and comment */
-    background-color: bisque;
-}
-
 h1 {
     font-family: "myFont";
     border-style: dashed;
@@ -31,7 +26,8 @@ h3 {
     color: red;
 }
 
-h4 {
+h4,
+img {
     display: inline;
     color: hsl(79, 100%, 30%)
 }
@@ -97,8 +93,12 @@ ol {
 
 ul {
     display: inline-block;
-    margin: 1cm, 0, 1cm, 0;
+    margin: 3cm 0cm 0cm 0cm;
     padding: 25px 50px 25px 50px;
+}
+
+ul li {
+    color: red;
 }
 
 li {
@@ -133,4 +133,36 @@ a:active {
     body {
         background-color: lightblue;
     }
+}
+
+form+p {
+    color: orchid;
+}
+
+fieldset>label {
+    color: royalblue;
+}
+
+p~h1 {
+    color: red
+}
+
+#numbers {
+    color: blue;
+    font-size: larger;
+}
+
+
+/* added background color and comment */
+
+a[href="https://www.python.org/"] {
+    color: blueviolet;
+}
+
+* {
+    background-color: blanchedalmond;
+}
+
+p.audio {
+    font-size: xx-large;
 }
